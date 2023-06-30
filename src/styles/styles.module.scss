@@ -116,7 +116,7 @@ h1 {
 }
 
 .loginForm {
-    width: 500px;
+    width: 30%;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -124,12 +124,15 @@ h1 {
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
 
     & > input {
         margin-bottom: 10px;
         height: 32px;
         padding: 8px;
         font-size: 14pt;
+        border: none;
+        box-shadow: 0 1px 2px 0 #e97013;
     }
 
     .loginSignUpToggle {
