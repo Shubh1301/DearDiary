@@ -10,7 +10,7 @@ const PostHead = ({ post }) => {
 
   const handleClick = async () => {
     const response = await fetch(
-      `http://localhost:4000/api/posts/${post._id}`,
+      `https://diary-backend-ymvz.onrender.com/api/posts/${post._id}`,
       {
         method: "DELETE",
         headers: {
